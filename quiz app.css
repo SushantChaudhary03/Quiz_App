@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 50vw;
+    height: 65vh;
+    box-shadow: 0px, 0px, 5px, gray;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding: 15px;
+}
+
+.row {
+    width: 90vw;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.btn {
+    width: 25vw;
+    padding: 10px;
+    background-color: violet;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 2rem 9rem;
+}
+
+input.option {
+    width: 16px;
+    height: 16px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1100px) {
+
+    .main{
+        width: 100vw;
+        height: 100vh;
+    }
+    .box {
+        width: 80vw;
+        height: 70vh;
+    }
+
+}
